@@ -5,7 +5,7 @@ bot.on('ready', function () {
   console.log("Je suis connecté !")
 })
 
-bot.login('NDMwNzk5MzQyMzIxMDA4NjQw.DaVcwQ.1JZiTMFkAamTe4ZzXQaCr1s_h7k')
+bot.login('BOT_TOKEN')
 // TEST
 bot.on('message', message => {
   if (message.content === 'ping') {
